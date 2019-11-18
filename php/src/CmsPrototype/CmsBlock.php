@@ -2,12 +2,11 @@
 
 namespace Katas\CmsPrototype;
 
-class CmsBlock
+class CmsBlock implements CmsPrototype
 {
-    public $dbConnector;
-    public $dbConnection;
-    public $textParser;
-    public $credentialsReader;
+    public $dbConnector = null;
+    public $textParser = null;
+    public $credentialsReader = null;
     public $blockId;
 
     public function __construct($id) {
@@ -18,6 +17,11 @@ class CmsBlock
     }
 
     public function render() {
-        return $this->textParser->parse('I\'m ' . $this->blockId . ' block \n');
+        return $this->textParser->parse('<div>I\'m ' . $this->blockId . ' block.</div>');
+    }
+
+    function __clone()
+    {
+        // TODO: Implement __clone() method.
     }
 }
