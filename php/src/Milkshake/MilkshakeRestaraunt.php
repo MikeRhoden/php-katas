@@ -8,7 +8,7 @@ class MilkshakeRestaraunt
      * @var MilkShakeStrategy
      */
     private $milkShakeStrategy;
-git
+
     public function __construct(MilkShakeStrategy $milkShakeStrategy)
     {
         $this->milkShakeStrategy = $milkShakeStrategy;

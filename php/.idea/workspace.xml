@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a8409e9-605c-48f7-ab58-d8e58859dd78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Milkshake/MilkShakeStrategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Milkshake/MilkShakeStrategyA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Milkshake/MilkShakeStrategyB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Milkshake/MilkshakeRestaraunt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CmsPrototype/CmsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CmsPrototype/CmsPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CmsPrototype/CredentialsReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CmsPrototype/DbConnector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CmsPrototype/TextParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Milkshake/MilkshakeStrategyPattern.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Milkshake/MilkShakeStrategyA.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Milkshake/MilkShakeStrategyA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Milkshake/MilkShakeStrategyB.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Milkshake/MilkShakeStrategyB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Milkshake/MilkshakeRestaraunt.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Milkshake/MilkshakeRestaraunt.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,14 +64,17 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1RhUUjLmaCe7ZQOQwwESAEOmhLC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Milkshake" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Milkshake" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mirhoden\PhpstormProjects\katas\php\tests\Milkshake" />
       <recent name="C:\Users\mirhoden\PhpstormProjects\katas\php\src\Milkshake" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -85,34 +93,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.GameTest.TestGetInstanceReturnsSameInstance">
-    <configuration name="GameTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Katas\Patterns\GameTest" file="$PROJECT_DIR$/tests/Patterns/SingletonTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.TestMilkshakeStrategyPattern">
+    <configuration name="TestMilkshakeStrategyPattern" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Katas\Milkshake\TestMilkshakeStrategyPattern" file="$PROJECT_DIR$/tests/Milkshake/MilkshakeStrategyPattern.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="GameTest (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Katas\Bowling\GameTest" file="$PROJECT_DIR$/tests/Bowling/GameTest.php" scope="Class" />
+    <configuration name="TestMilkshakeStrategyPattern.TestMilkShakeStrategyA (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Katas\Milkshake\TestMilkshakeStrategyPattern" file="$PROJECT_DIR$/tests/Milkshake/MilkshakeStrategyPattern.php" method="TestMilkShakeStrategyA" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="GameTest.TestGetInstanceReturnsSameInstance" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Katas\Patterns\GameTest" file="$PROJECT_DIR$/tests/Patterns/SingletonTest.php" method="TestGetInstanceReturnsSameInstance" scope="Method" />
+    <configuration name="TestMilkshakeStrategyPattern.TestMilkShakeStrategyA" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Katas\Patterns\TestMilkshakeStrategyPattern" file="$PROJECT_DIR$/tests/Milkshake/MilkshakeStrategyPattern.php" method="TestMilkShakeStrategyA" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="GameTest.testGutterGame (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Katas\Patterns\GameTest" file="$PROJECT_DIR$/tests/Patterns/SingletonTest.php" method="testGutterGame" scope="Method" />
+    <configuration name="TestMilkshakeStrategyPattern.TestMilkShakeStrategyB" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Katas\Milkshake\TestMilkshakeStrategyPattern" file="$PROJECT_DIR$/tests/Milkshake/MilkshakeStrategyPattern.php" method="TestMilkShakeStrategyB" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="GameTest.testGutterGame" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Katas\Bowling\GameTest" file="$PROJECT_DIR$/tests/Bowling/GameTest.php" method="testGutterGame" scope="Method" />
+    <configuration name="CmsPage.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/CmsPrototype/CmsPage.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.GameTest.TestGetInstanceReturnsSameInstance" />
-        <item itemvalue="PHPUnit.GameTest (1)" />
-        <item itemvalue="PHPUnit.GameTest (2)" />
-        <item itemvalue="PHPUnit.GameTest.testGutterGame (1)" />
-        <item itemvalue="PHPUnit.GameTest.testGutterGame" />
+        <item itemvalue="PHPUnit.TestMilkshakeStrategyPattern" />
+        <item itemvalue="PHPUnit.TestMilkshakeStrategyPattern.TestMilkShakeStrategyB" />
+        <item itemvalue="PHPUnit.TestMilkshakeStrategyPattern.TestMilkShakeStrategyA (1)" />
+        <item itemvalue="PHPUnit.TestMilkshakeStrategyPattern.TestMilkShakeStrategyA" />
+        <item itemvalue="PHP Script.CmsPage.php" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +141,7 @@
       <workItem from="1573830582462" duration="517000" />
       <workItem from="1573831323760" duration="5153000" />
       <workItem from="1573838361407" duration="1909000" />
-      <workItem from="1573849171659" duration="1152000" />
+      <workItem from="1573849171659" duration="6793000" />
     </task>
     <servers />
   </component>
@@ -151,6 +158,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Milkshake/MilkShakeStrategyA.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Milkshake/MilkshakeStrategyPattern.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/php@GameTest__1_.xml" NAME="GameTest (1) Coverage Results" MODIFIED="1573838210170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
